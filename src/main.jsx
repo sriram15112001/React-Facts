@@ -1,4 +1,6 @@
 import { createRoot } from "react-dom/client";
+import Page from "./Page";
+
 
 const root = createRoot(document.querySelector("#root"));
-root.render(<h1>Hello React!</h1>);
+root.render(<Page />);
